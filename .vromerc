@@ -1,4 +1,17 @@
+map j 10j
+map k 10k
+
+map d 20j
+map D 20k
+map K gt
+map J gT
+
+iunmap <C-a>
+" “iunmap <C-f>
+" ”iunmap <C-F>
+" “iunmap [count] <C-f>
+
 set disablesites=www.google.com/reader/view,docs.google.com/spreadsheet
-set searchengines+={"wp":"http://en.wikipedia.org/wiki/{{keyword}}"}
-map R <C-r>
-map <M-R> R
+set disablesites=https://creately.com/app/
+
+map x <M-d>
