@@ -6,12 +6,14 @@ map D 20k
 map K gt
 map J gT
 
+unmap <C-f>
+unmap <C-a>
+unmap <C-x>
+
 iunmap <C-a>
-" “iunmap <C-f>
-" ”iunmap <C-F>
-" “iunmap [count] <C-f>
 
 set disablesites=www.google.com/reader/view,docs.google.com/spreadsheet
 set disablesites=https://creately.com/app/
 
 map x <M-d>
+map X u
